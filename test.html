@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Menyusun elemen secara vertikal */
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            border: 2px  /* Menambahkan warna dan jenis border */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px; /* Memberikan jarak antara .flex-container dan .flex-container2 */
+        }
+
+        .flex-container2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            border: 2px  /* Menambahkan warna dan jenis border */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .flex-item {
+            padding: 10px;
+            text-align: center;
+            background-color: ;
+            border: 1px;
+            border-radius: 5px;
+            margin: 5px; /* Memberikan jarak antara .flex-item */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="flex-item"><img src="12.jpg" width="100px"></div>
+        <div class="flex-item"><img src="5.jpeg" width="100px"></div>
+    </div>
+	
+	<div class="flex-container2">
+		<div class="flex-item">Surat ini diverifikasi dan dapat digunakan sebagaimana mestinya</div>
+	</div>
+
+</body>
+</html>
